@@ -1,6 +1,6 @@
 #!/bin/sh
 RENAME_SEQ:
 	count = 1
-	FOR i IN Test/*.docx DO
-		cp "$i" "F$count.docx"
+	FOR i IN Test/*.txt DO
+		cp "$i" "F$count.txt"
 		count++
