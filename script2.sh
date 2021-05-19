@@ -1,4 +1,8 @@
 #!/bin/sh
 #Run script from script
+echo "Enter script name"
+read script
 
-bash script1.sh
+echo
+echo "Running $script"
+bash $script
